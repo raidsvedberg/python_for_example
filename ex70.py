@@ -1,3 +1,3 @@
 countries = ('Germany', 'France', "Italy", "Sweden", "Spain")
 print(countries)
-print(countries.index(input('enter a country: ')))
+print(countries[(int(input('enter number of country: ')))])
